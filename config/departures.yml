@@ -4,6 +4,9 @@ golemio:
 zivyobraz:
   api_base_url: 'https://in.zivyobraz.eu/'
 
+# Cron schedule
+cron_schedule: "*/1 7-8 * * *;*/10 9-23 * * *"
+
 # Comments taken from
 # https://api.golemio.cz/pid/docs/openapi/#/%F0%9F%95%90%20Public%20Vehicle%20Positions%20(experimental)/get_public_vehiclepositions
 departure_settings:
