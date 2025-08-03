@@ -1,27 +1,30 @@
 #!/bin/bash
+
+# Read the config values from YAML
+SLEEP_SECONDS=$(awk -F": " '/sleep_seconds:/ {print $2}' ./config/departures.yml)
+NO_RUN=$(awk -F": " '/no_run_hours:/ {print $2}' ./config/departures.yml | tr "," " ")
+
 while true; do
+  # Get current hour in 24-hour format
+  HOUR=$(date +%H)
+  SKIP=false
+
+  # Iterate over each no-run range
+  for RANGE in $NO_RUN; do
+    START=${RANGE%-*}
+    END=${RANGE#*-}
+    # Check normal range (e.g. 13-14) or midnight-crossing range (e.g. 23-06)
+    if (( (START < END && HOUR >= START && HOUR < END) || (START > END && (HOUR >= START || HOUR < END)) )); then
+      echo "$(date) - Skipping execution (range $START-$END)"
+      SKIP=true
+      break
+    fi
+  done
+
+  if [ "$SKIP" = false ]; then
+    echo "$(date) - Running departures.py"
     python ./departures.py -c ./config/departures.yml
-    sleep 60
+  fi
+
+  sleep "$SLEEP_SECONDS"
 done
-
-# Extract the cron schedule from departures.yml
-CRON_SCHEDULE=$(grep cron_schedule ./config/departures.yml | awk -F': ' '{print $2}' | tr -d "'")
-
-# Debugging output
-echo "Extracted CRON_SCHEDULE: $CRON_SCHEDULE"
-
-# Split and write each cron job to the cron file
-IFS=';' read -ra SCHEDULES <<< "$CRON_SCHEDULE"
-for SCHEDULE in "${SCHEDULES[@]}"; do
-  echo "Adding cron job: $SCHEDULE python ./departures.py -c ./config/departures.yml"
-  echo "$SCHEDULE python ./departures.py -c ./config/departures.yml" >> /tmp/cron_schedule
-done
-
-# Install the new cron jobs from the file
-crontab /tmp/cron_schedule
-
-# Start the cron service
-cron
-
-# Run any other original commands that might be needed
-exec "$@"
