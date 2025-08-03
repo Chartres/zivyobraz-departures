@@ -14,7 +14,8 @@ departure_settings:
   #  intercity routes, even if they depart from the same physical stop. A list of GTFS stops can be found in stops.txt
   #  file of the GTFS feed
   # - required
-  ids: [ 'U1935Z1P', 'U1935Z1' ]
+  # svetice ids: [ 'U1935Z1P', 'U1935Z1' ]
+  ids: [ 'U601Z1P', 'U601Z2', 'U601Z3P', 'U601Z21P', 'U601Z21', 'U601Z91P', 'U601Z95P', 'U601Z101P', 'U601Z102P']
   # Set the start of interval from which to retrieve departures. Positive numbers are set in past relative to the time
   # of request or timeFrom timestamp, negative numbers set the start in the future. Use to compensate for walking
   # distance to a stop. Default is set to 0. Maximum value is 30 because of implemented data retention.
