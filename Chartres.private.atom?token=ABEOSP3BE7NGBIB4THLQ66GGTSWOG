@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xml:lang="en-US">
+  <id>tag:github.com,2008:/Chartres</id>
+  <link type="text/html" rel="alternate" href="https://github.com/Chartres"/>
+  <link type="application/atom+xml" rel="self" href="https://github.com/Chartres.private.atom?token=ABEOSP3BE7NGBIB4THLQ66GGTSWOG"/>
+  <title>Private Feed for Chartres</title>
+  <updated>2025-08-02T22:51:14-07:00</updated>
+  <entry>
+    <id>tag:github.com,2008:publish_release/2719475763</id>
+    <published>2025-08-02 22:51:14 -0700</published>
+    <updated>2025-08-02 22:51:14 -0700</updated>
+    <link type="text/html" rel="alternate" href="https://github.com//junegunn/fzf/releases/tag/v0.65.1"/>
+    <title type="html">junegunn published a release</title>
+    <author>
+      <name>junegunn</name>
+      <email>junegunn.c@gmail.com</email>
+      <uri>https://github.com/junegunn</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/700826?s=30&amp;v=4"/>
+    <content type="html">&lt;div class=&quot;release js-feed-item-view&quot;&gt;&lt;div class=&quot;body&quot;&gt;
+&lt;div class=&quot;d-flex flex-items-baseline py-4&quot;&gt;
+  &lt;div class=&quot;d-flex flex-column width-full&quot; style=&quot;min-width: 0;&quot;&gt;
+      &lt;div class=&quot;color-fg-muted&quot;&gt;
+          &lt;span class=&quot;mr-2&quot;&gt;&lt;a class=&quot;d-inline-block&quot; href=&quot;/junegunn&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/700826?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@junegunn&quot;&gt;&lt;/a&gt;&lt;/span&gt;
+          &lt;a class=&quot;Link--primary no-underline wb-break-all&quot; href=&quot;/junegunn&quot; rel=&quot;noreferrer&quot;&gt;junegunn&lt;/a&gt;
+          
+        released
+        &lt;a class=&quot;Link--primary no-underline wb-break-all&quot; href=&quot;https://github.com//junegunn/fzf/releases/tag/v0.65.1&quot; rel=&quot;noreferrer&quot;&gt;v0.65.1&lt;/a&gt;
+          of
+          &lt;a class=&quot;Link--primary no-underline wb-break-all&quot; href=&quot;/junegunn/fzf&quot; rel=&quot;noreferrer&quot;&gt;junegunn/fzf&lt;/a&gt;
+        &lt;span&gt;
+          · &lt;relative-time tense=&quot;past&quot; datetime=&quot;2025-08-02T22:51:14-07:00&quot; data-view-component=&quot;true&quot;&gt;August 2, 2025 22:51&lt;/relative-time&gt;
+        &lt;/span&gt;
+      &lt;/div&gt;
+
+    &lt;div class=&quot;Box mt-2 color-shadow-medium color-bg-overlay&quot;&gt;
+      &lt;div class=&quot;p-3&quot;&gt;
+        &lt;div class=&quot;d-flex flex-items-start flex-justify-between flex-column flex-sm-row&quot;&gt;
+          &lt;div class=&quot;d-flex flex-items-center&quot;&gt;
+            &lt;div class=&quot;mr-1&quot;&gt;
+              &lt;a class=&quot;d-flex&quot; href=&quot;/junegunn&quot; rel=&quot;noreferrer&quot;&gt;&lt;img src=&quot;https://avatars.githubusercontent.com/u/700826?s=32&amp;amp;v=4&quot; alt=&quot;@junegunn&quot; size=&quot;16&quot; height=&quot;16&quot; width=&quot;16&quot; data-view-component=&quot;true&quot; class=&quot;avatar avatar-small circle&quot;&gt;&lt;/a&gt;
+            &lt;/div&gt;
+            &lt;div&gt;
+              &lt;a class=&quot;Link--primary no-underline text-bold wb-break-all d-inline-block&quot; href=&quot;/junegunn&quot; rel=&quot;noreferrer&quot;&gt;junegunn&lt;/a&gt; /
+              &lt;a class=&quot;Link--primary text-bold no-underline wb-break-all d-inline-block&quot; href=&quot;/junegunn/fzf&quot; rel=&quot;noreferrer&quot;&gt;/junegunn/fzf&lt;/a&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+
+          
+        &lt;/div&gt;
+
+        &lt;div class=&quot;f4 lh-condensed text-bold color-fg-default my-2&quot;&gt;
+          &lt;a class=&quot;Link--primary no-underline text-bold wb-break-all d-inline-block&quot; href=&quot;https://github.com//junegunn/fzf/releases/tag/v0.65.1&quot; rel=&quot;noreferrer&quot;&gt;0.65.1&lt;/a&gt;
+        &lt;/div&gt;
+
+          &lt;div class=&quot;dashboard-break-word color-fg-muted comment-body markdown-body mt-1 p-0 release-feed-inline-last-p&quot;&gt;
+            &lt;ul&gt;
+&lt;li&gt;Fixed incorrect &lt;code&gt;$FZF_CLICK_HEADER_WORD&lt;/code&gt; and &lt;code&gt;$FZF_CLICK_FOOTER_WORD&lt;/code&gt; when the header or footer contains ANSI escape sequences and tab characters.&lt;/li&gt;
+&lt;li&gt;Fixed a bug where you cannot unset the default &lt;code&gt;--nth&lt;/code&gt; …&lt;/li&gt;
+&lt;/ul&gt;
+                &lt;a class=&quot;no-underline&quot; href=&quot;https://github.com//junegunn/fzf/releases/tag/v0.65.1&quot; rel=&quot;noreferrer&quot;&gt;Read more&lt;/a&gt;
+          &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;p-3 border-top&quot;&gt;
+
+      &lt;/div&gt;
+
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:publish_release/2629591675</id>
+    <published>2025-07-28 15:12:31 -0700</published>
+    <updated>2025-07-28 15:12:31 -0700</updated>
+    <link type="text/html" rel="alternate" href="https://github.com//tensorflow/tensorflow/releases/tag/v2.20.0-rc0"/>
+    <title type="html">tensorflow-jenkins published a release</title>
+    <author>
+      <name>tensorflow-jenkins</name>
+      <uri>https://github.com/tensorflow-jenkins</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/16359713?s=30&amp;v=4"/>
+    <content type="html">&lt;div class=&quot;release js-feed-item-view&quot;&gt;&lt;div class=&quot;body&quot;&gt;
+&lt;div class=&quot;d-flex flex-items-baseline py-4&quot;&gt;
+  &lt;div class=&quot;d-flex flex-column width-full&quot; style=&quot;min-width: 0;&quot;&gt;
+      &lt;div class=&quot;color-fg-muted&quot;&gt;
+          &lt;span class=&quot;mr-2&quot;&gt;&lt;a class=&quot;d-inline-block&quot; href=&quot;/tensorflow-jenkins&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/16359713?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@tensorflow-jenkins&quot;&gt;&lt;/a&gt;&lt;/span&gt;
+          &lt;a class=&quot;Link--primary no-underline wb-break-all&quot; href=&quot;/tensorflow-jenkins&quot; rel=&quot;noreferrer&quot;&gt;tensorflow-jenkins&lt;/a&gt;
+          
+        released
+        &lt;a class=&quot;Link--primary no-underline wb-break-all&quot; href=&quot;https://github.com//tensorflow/tensorflow/releases/tag/v2.20.0-rc0&quot; rel=&quot;noreferrer&quot;&gt;v2.20.0-rc0&lt;/a&gt;
+          of
+          &lt;a class=&quot;Link--primary no-underline wb-break-all&quot; href=&quot;/tensorflow/tensorflow&quot; rel=&quot;noreferrer&quot;&gt;tensorflow/tensorflow&lt;/a&gt;
+        &lt;span&gt;
+          · &lt;relative-time tense=&quot;past&quot; datetime=&quot;2025-07-28T15:12:31-07:00&quot; data-view-component=&quot;true&quot;&gt;July 28, 2025 15:12&lt;/relative-time&gt;
+        &lt;/span&gt;
+      &lt;/div&gt;
+
+    &lt;div class=&quot;Box mt-2 color-shadow-medium color-bg-overlay&quot;&gt;
+      &lt;div class=&quot;p-3&quot;&gt;
+        &lt;div class=&quot;d-flex flex-items-start flex-justify-between flex-column flex-sm-row&quot;&gt;
+          &lt;div class=&quot;d-flex flex-items-center&quot;&gt;
+            &lt;div class=&quot;mr-1&quot;&gt;
+              &lt;a class=&quot;d-flex&quot; data-hovercard-type=&quot;organization&quot; data-hovercard-url=&quot;/orgs/tensorflow/hovercard&quot; data-octo-click=&quot;hovercard-link-click&quot; data-octo-dimensions=&quot;link_type:self&quot; href=&quot;/tensorflow&quot; rel=&quot;noreferrer&quot;&gt;&lt;img src=&quot;https://avatars.githubusercontent.com/u/15658638?s=32&amp;amp;v=4&quot; alt=&quot;@tensorflow&quot; size=&quot;16&quot; height=&quot;16&quot; width=&quot;16&quot; data-view-component=&quot;true&quot; class=&quot;avatar avatar-small&quot;&gt;&lt;/a&gt;
+            &lt;/div&gt;
+            &lt;div&gt;
+              &lt;a data-hovercard-type=&quot;organization&quot; data-hovercard-url=&quot;/orgs/tensorflow/hovercard&quot; data-octo-click=&quot;hovercard-link-click&quot; data-octo-dimensions=&quot;link_type:self&quot; class=&quot;Link--primary no-underline text-bold wb-break-all d-inline-block&quot; href=&quot;/tensorflow&quot; rel=&quot;noreferrer&quot;&gt;tensorflow&lt;/a&gt; /
+              &lt;a class=&quot;Link--primary text-bold no-underline wb-break-all d-inline-block&quot; href=&quot;/tensorflow/tensorflow&quot; rel=&quot;noreferrer&quot;&gt;/tensorflow/tensorflow&lt;/a&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+
+          
+        &lt;/div&gt;
+
+        &lt;div class=&quot;f4 lh-condensed text-bold color-fg-default my-2&quot;&gt;
+          &lt;a class=&quot;Link--primary no-underline text-bold wb-break-all d-inline-block&quot; href=&quot;https://github.com//tensorflow/tensorflow/releases/tag/v2.20.0-rc0&quot; rel=&quot;noreferrer&quot;&gt;TensorFlow 2.20.0-rc0&lt;/a&gt;
+        &lt;/div&gt;
+
+          &lt;div class=&quot;dashboard-break-word color-fg-muted comment-body markdown-body mt-1 p-0 release-feed-inline-last-p&quot;&gt;
+            &lt;h1&gt;Release 2.20.0&lt;/h1&gt;
+&lt;h2&gt;TensorFlow&lt;/h2&gt;
+&lt;h3&gt;Breaking Changes&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;The &lt;code&gt;tensorflow-io-gcs-filesystem&lt;/code&gt; package is now optional, due its uncertain, and limited support. To install it alongside &lt;code&gt;tensorflow&lt;/code&gt;, run &lt;code&gt;pip install &quot;te…&lt;/code&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+                &lt;a class=&quot;no-underline&quot; href=&quot;https://github.com//tensorflow/tensorflow/releases/tag/v2.20.0-rc0&quot; rel=&quot;noreferrer&quot;&gt;Read more&lt;/a&gt;
+          &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;p-3 border-top&quot;&gt;
+
+      &lt;/div&gt;
+
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:publish_release/2601116350</id>
+    <published>2025-07-26 18:43:27 -0700</published>
+    <updated>2025-07-26 18:43:27 -0700</updated>
+    <link type="text/html" rel="alternate" href="https://github.com//junegunn/fzf/releases/tag/v0.65.0"/>
+    <title type="html">junegunn published a release</title>
+    <author>
+      <name>junegunn</name>
+      <email>junegunn.c@gmail.com</email>
+      <uri>https://github.com/junegunn</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/700826?s=30&amp;v=4"/>
+    <content type="html">&lt;div class=&quot;release js-feed-item-view&quot;&gt;&lt;div class=&quot;body&quot;&gt;
+&lt;div class=&quot;d-flex flex-items-baseline py-4&quot;&gt;
+  &lt;div class=&quot;d-flex flex-column width-full&quot; style=&quot;min-width: 0;&quot;&gt;
+      &lt;div class=&quot;color-fg-muted&quot;&gt;
+          &lt;span class=&quot;mr-2&quot;&gt;&lt;a class=&quot;d-inline-block&quot; href=&quot;/junegunn&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/700826?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@junegunn&quot;&gt;&lt;/a&gt;&lt;/span&gt;
+          &lt;a class=&quot;Link--primary no-underline wb-break-all&quot; href=&quot;/junegunn&quot; rel=&quot;noreferrer&quot;&gt;junegunn&lt;/a&gt;
+          
+        released
+        &lt;a class=&quot;Link--primary no-underline wb-break-all&quot; href=&quot;https://github.com//junegunn/fzf/releases/tag/v0.65.0&quot; rel=&quot;noreferrer&quot;&gt;v0.65.0&lt;/a&gt;
+          of
+          &lt;a class=&quot;Link--primary no-underline wb-break-all&quot; href=&quot;/junegunn/fzf&quot; rel=&quot;noreferrer&quot;&gt;junegunn/fzf&lt;/a&gt;
+        &lt;span&gt;
+          · &lt;relative-time tense=&quot;past&quot; datetime=&quot;2025-07-26T18:43:27-07:00&quot; data-view-component=&quot;true&quot;&gt;July 26, 2025 18:43&lt;/relative-time&gt;
+        &lt;/span&gt;
+      &lt;/div&gt;
+
+    &lt;div class=&quot;Box mt-2 color-shadow-medium color-bg-overlay&quot;&gt;
+      &lt;div class=&quot;p-3&quot;&gt;
+        &lt;div class=&quot;d-flex flex-items-start flex-justify-between flex-column flex-sm-row&quot;&gt;
+          &lt;div class=&quot;d-flex flex-items-center&quot;&gt;
+            &lt;div class=&quot;mr-1&quot;&gt;
+              &lt;a class=&quot;d-flex&quot; href=&quot;/junegunn&quot; rel=&quot;noreferrer&quot;&gt;&lt;img src=&quot;https://avatars.githubusercontent.com/u/700826?s=32&amp;amp;v=4&quot; alt=&quot;@junegunn&quot; size=&quot;16&quot; height=&quot;16&quot; width=&quot;16&quot; data-view-component=&quot;true&quot; class=&quot;avatar avatar-small circle&quot;&gt;&lt;/a&gt;
+            &lt;/div&gt;
+            &lt;div&gt;
+              &lt;a class=&quot;Link--primary no-underline text-bold wb-break-all d-inline-block&quot; href=&quot;/junegunn&quot; rel=&quot;noreferrer&quot;&gt;junegunn&lt;/a&gt; /
+              &lt;a class=&quot;Link--primary text-bold no-underline wb-break-all d-inline-block&quot; href=&quot;/junegunn/fzf&quot; rel=&quot;noreferrer&quot;&gt;/junegunn/fzf&lt;/a&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+
+          
+        &lt;/div&gt;
+
+        &lt;div class=&quot;f4 lh-condensed text-bold color-fg-default my-2&quot;&gt;
+          &lt;a class=&quot;Link--primary no-underline text-bold wb-break-all d-inline-block&quot; href=&quot;https://github.com//junegunn/fzf/releases/tag/v0.65.0&quot; rel=&quot;noreferrer&quot;&gt;0.65.0&lt;/a&gt;
+        &lt;/div&gt;
+
+          &lt;div class=&quot;dashboard-break-word color-fg-muted comment-body markdown-body mt-1 p-0 release-feed-inline-last-p&quot;&gt;
+            &lt;ul&gt;
+&lt;li&gt;Added &lt;code&gt;click-footer&lt;/code&gt; event that is triggered when the footer section is clicked. When the event is triggered, the following environment variables are set:
+&lt;ul&gt;
+&lt;li&gt;
+&lt;code&gt;$FZF_CLICK_FOOTER_COLUMN&lt;/code&gt; - clicked column …&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+                &lt;a class=&quot;no-underline&quot; href=&quot;https://github.com//junegunn/fzf/releases/tag/v0.65.0&quot; rel=&quot;noreferrer&quot;&gt;Read more&lt;/a&gt;
+          &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;p-3 border-top&quot;&gt;
+          &lt;div class=&quot;h6 mb-1 color-fg-muted&quot;&gt;
+            Contributors
+          &lt;/div&gt;
+          &lt;div class=&quot;mt-1 mb-3&quot;&gt;
+            &lt;ul class=&quot;list-style-none d-flex flex-wrap mb-n2&quot;&gt;
+    &lt;li class=&quot;mb-2 mr-2&quot;&gt;
+      &lt;a href=&quot;https://github.com/akinomyoga&quot; class=&quot;&quot; rel=&quot;noreferrer&quot;&gt;
+        &lt;img src=&quot;https://avatars.githubusercontent.com/u/8982192?s=64&amp;amp;v=4&quot; alt=&quot;@akinomyoga&quot; size=&quot;32&quot; height=&quot;32&quot; width=&quot;32&quot; data-view-component=&quot;true&quot; class=&quot;avatar circle&quot;&gt;
+      &lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li class=&quot;mb-2 mr-2&quot;&gt;
+      &lt;a href=&quot;https://github.com/LangLangBart&quot; class=&quot;&quot; rel=&quot;noreferrer&quot;&gt;
+        &lt;img src=&quot;https://avatars.githubusercontent.com/u/92653266?s=64&amp;amp;v=4&quot; alt=&quot;@LangLangBart&quot; size=&quot;32&quot; height=&quot;32&quot; width=&quot;32&quot; data-view-component=&quot;true&quot; class=&quot;avatar circle&quot;&gt;
+      &lt;/a&gt;
+    &lt;/li&gt;
+&lt;/ul&gt;
+
+          &lt;/div&gt;
+
+      &lt;/div&gt;
+
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:publish_release/2243837253</id>
+    <published>2025-07-06 08:05:40 -0700</published>
+    <updated>2025-07-06 08:05:40 -0700</updated>
+    <link type="text/html" rel="alternate" href="https://github.com//junegunn/fzf/releases/tag/v0.64.0"/>
+    <title type="html">junegunn published a release</title>
+    <author>
+      <name>junegunn</name>
+      <email>junegunn.c@gmail.com</email>
+      <uri>https://github.com/junegunn</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/700826?s=30&amp;v=4"/>
+    <content type="html">&lt;div class=&quot;release js-feed-item-view&quot;&gt;&lt;div class=&quot;body&quot;&gt;
+&lt;div class=&quot;d-flex flex-items-baseline py-4&quot;&gt;
+  &lt;div class=&quot;d-flex flex-column width-full&quot; style=&quot;min-width: 0;&quot;&gt;
+      &lt;div class=&quot;color-fg-muted&quot;&gt;
+          &lt;span class=&quot;mr-2&quot;&gt;&lt;a class=&quot;d-inline-block&quot; href=&quot;/junegunn&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/700826?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@junegunn&quot;&gt;&lt;/a&gt;&lt;/span&gt;
+          &lt;a class=&quot;Link--primary no-underline wb-break-all&quot; href=&quot;/junegunn&quot; rel=&quot;noreferrer&quot;&gt;junegunn&lt;/a&gt;
+          
+        released
+        &lt;a class=&quot;Link--primary no-underline wb-break-all&quot; href=&quot;https://github.com//junegunn/fzf/releases/tag/v0.64.0&quot; rel=&quot;noreferrer&quot;&gt;v0.64.0&lt;/a&gt;
+          of
+          &lt;a class=&quot;Link--primary no-underline wb-break-all&quot; href=&quot;/junegunn/fzf&quot; rel=&quot;noreferrer&quot;&gt;junegunn/fzf&lt;/a&gt;
+        &lt;span&gt;
+          · &lt;relative-time tense=&quot;past&quot; datetime=&quot;2025-07-06T08:05:40-07:00&quot; data-view-component=&quot;true&quot;&gt;July 6, 2025 08:05&lt;/relative-time&gt;
+        &lt;/span&gt;
+      &lt;/div&gt;
+
+    &lt;div class=&quot;Box mt-2 color-shadow-medium color-bg-overlay&quot;&gt;
+      &lt;div class=&quot;p-3&quot;&gt;
+        &lt;div class=&quot;d-flex flex-items-start flex-justify-between flex-column flex-sm-row&quot;&gt;
+          &lt;div class=&quot;d-flex flex-items-center&quot;&gt;
+            &lt;div class=&quot;mr-1&quot;&gt;
+              &lt;a class=&quot;d-flex&quot; href=&quot;/junegunn&quot; rel=&quot;noreferrer&quot;&gt;&lt;img src=&quot;https://avatars.githubusercontent.com/u/700826?s=32&amp;amp;v=4&quot; alt=&quot;@junegunn&quot; size=&quot;16&quot; height=&quot;16&quot; width=&quot;16&quot; data-view-component=&quot;true&quot; class=&quot;avatar avatar-small circle&quot;&gt;&lt;/a&gt;
+            &lt;/div&gt;
+            &lt;div&gt;
+              &lt;a class=&quot;Link--primary no-underline text-bold wb-break-all d-inline-block&quot; href=&quot;/junegunn&quot; rel=&quot;noreferrer&quot;&gt;junegunn&lt;/a&gt; /
+              &lt;a class=&quot;Link--primary text-bold no-underline wb-break-all d-inline-block&quot; href=&quot;/junegunn/fzf&quot; rel=&quot;noreferrer&quot;&gt;/junegunn/fzf&lt;/a&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+
+          
+        &lt;/div&gt;
+
+        &lt;div class=&quot;f4 lh-condensed text-bold color-fg-default my-2&quot;&gt;
+          &lt;a class=&quot;Link--primary no-underline text-bold wb-break-all d-inline-block&quot; href=&quot;https://github.com//junegunn/fzf/releases/tag/v0.64.0&quot; rel=&quot;noreferrer&quot;&gt;0.64.0&lt;/a&gt;
+        &lt;/div&gt;
+
+          &lt;div class=&quot;dashboard-break-word color-fg-muted comment-body markdown-body mt-1 p-0 release-feed-inline-last-p&quot;&gt;
+            &lt;ul&gt;
+&lt;li&gt;Added &lt;code&gt;multi&lt;/code&gt; event that is triggered when the multi-selection has changed.
+&lt;div class=&quot;highlight highlight-source-shell notranslate position-relative overflow-auto&quot; data-snippet-clipboard-copy-content=&quot;fzf --multi \
+    --bind &#39;ctrl-a:select-all,ctrl-d:deselect-all&#39; \
+    --bind &#39;multi:transform-footer:(( FZF_SELECT_COUNT )) &amp;amp;&amp;amp; echo &amp;quot;Selected $FZF_SELECT_COUNT item(s)&amp;quot;&#39;&quot;&gt;&lt;pre&gt;fzf --multi \
+    --bind &lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;&#39;&lt;/span&gt;ctrl-a:select-all,ctrl-d:deselect-all&lt;span class=&quot;pl-pds&quot;&gt;&#39;&lt;/span&gt;&lt;/span&gt; \
+    --bind &lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;&#39;&lt;/span&gt;multi:transform-footer:(( FZF_SELECT_COUNT …&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+                &lt;a class=&quot;no-underline&quot; href=&quot;https://github.com//junegunn/fzf/releases/tag/v0.64.0&quot; rel=&quot;noreferrer&quot;&gt;Read more&lt;/a&gt;
+          &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;p-3 border-top&quot;&gt;
+
+      &lt;/div&gt;
+
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;</content>
+  </entry>
+</feed>
