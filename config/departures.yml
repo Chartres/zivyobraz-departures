@@ -7,6 +7,12 @@ zivyobraz:
 # Cron schedule
 cron_schedule: "*/1 7-8 * * *;*/10 9-23 * * *"
 
+# sleep seconds for run.sh
+sleep_seconds: 300
+
+# pause refresh during these hours
+no_run_hours: 23-06
+
 # Comments taken from
 # https://api.golemio.cz/pid/docs/openapi/#/%F0%9F%95%90%20Public%20Vehicle%20Positions%20(experimental)/get_public_vehiclepositions
 departure_settings:
