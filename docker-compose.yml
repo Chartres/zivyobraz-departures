@@ -1,0 +1,17 @@
+services:
+  zivyobraz-departures:
+    image: ghcr.io/chartres/zivyobraz-departures:main
+    container_name: deps
+    restart: always
+    env_file:
+      - ./.env
+    environment:
+      - GOLEMIO_API_ACCESS_TOKEN=${GOLEMIO_API_ACCESS_TOKEN}
+      - ZIVYOBRAZ_API_IMPORT_KEY=${ZIVYOBRAZ_API_IMPORT_KEY}
+      - THEYSAIDSO_BIBLE_API_TOKEN=${THEYSAIDSO_BIBLE_API_TOKEN}
+      - THEYSAIDSO_QUOTE_API_TOKEN=${THEYSAIDSO_QUOTE_API_TOKEN}
+    volumes:
+      - ./config:/usr/src/app/config
+      - ./logs:/usr/src/app/logs
+      - ./run.sh:/usr/src/app/run.sh
+    entrypoint: ["bash", "/usr/src/app/run.sh"]
